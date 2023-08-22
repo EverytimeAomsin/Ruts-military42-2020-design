@@ -1,42 +1,17 @@
-/* Only for snippet */
-.double-nav .breadcrumb-dn {
-    color: #fff; 
-  }
-  
-  .news-tile .card-title {
-    position: absolute;
-    bottom: 15px;
-    left: 40px;
-  }
-
-  .rgba-stylish-strong {
-    background-color: rgba(62, 69, 81, .5);
-  }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sarabun:ital@1&display=swap');
-
-  body{
-    font-family: 'Roboto', sans-serif;
-font-family: 'Sarabun', sans-serif;
-  }
-
-  .chip.chip-md {
-    height: 42px;
-    line-height: 42px;
-    border-radius: 21px;
-    }
-    .chip.chip-md img {
-    height: 42px;
-    width: 42px;
-    }
+.navbar {
+    background-color: transparent;
     
-    .chip.chip-lg {
-    height: 52px;
-    line-height: 52px;
-    border-radius: 26px;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
     }
-    .chip.chip-lg img {
-    height: 52px;
-    width: 52px;
-    }
+}
+

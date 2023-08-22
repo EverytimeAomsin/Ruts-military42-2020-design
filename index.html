@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>รวบรวมข้อมูลน่ารู้เกียวกับกองทัพบก</title>
   <!-- MDB icon -->
-  <link rel="icon" href="https://cdn.discordapp.com/attachments/698891272748007526/813391129160581140/Logo.png" type="image/x-icon">
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/698891272748007526/813391129160581140/Logo.png"
+    type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -17,539 +19,464 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/carousel.css">
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
   <style>
-    body{
+    body {
       font-family: 'Kanit', sans-serif;
     }
-    .news-tile .card-title {
-        position: absolute;
-        bottom: 15px;
-        left: 40px;
-      }
 
-      .rgba-stylish-strong {
-        background-color: rgba(62, 69, 81, .5);
-      }
+    .news-tile .card-title {
+      position: absolute;
+      bottom: 15px;
+      left: 40px;
+    }
+
+    .rgba-stylish-strong {
+      background-color: rgba(62, 69, 81, .5);
+    }
   </style>
 </head>
+
 <body>
 
-  <!-- Start your project here--> 
-  <body class="hidden-sn cyan-skin">
-    <div class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;">
-      <a href="#top-section" class="btn-floating btn-large red">
-          <i class="fa fa-arrow-up"></i>
-      </a>
-  </div>
-    <!--Double navigation-->
-    <header>
-      <!-- Sidebar navigation -->
-      <div id="slide-out" class="side-nav sn-bg-4">
-      
-        <ul  class="collapsible collapsible-accordion" >
-            <!-- Logo -->
-        
-            <div class="logo-wrapper waves-light"  >
-              <a href="#"><img  src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/logo.jpg?alt=media&token=a93c1bdb-10a6-427c-a187-85e7f83827cf" class="img-fluid flex-center" ></a>
-            </div>
-         
-          <!--/. Logo -->
-          <!--Social-->
-          <li >
-            <ul class="social">
-              <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a></li>
-         
-            </ul>
-          </li>
-          <!--/Social-->
-          <!--Search Form-->
-          <li>
-            <form class="search-form" role="search">
-              <div class="form-group md-form mt-0 pt-1 waves-light">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-            </form>
-          </li>
-          <!--/.Search Form-->
-          <!-- Side navigation links -->
-          <li>
-            <ul class="collapsible collapsible-accordion">
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-child"></i> กองทัพบก<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="./container/RTA/backgroundrta.html" class="waves-effect">ประวัติ</a>
-                    </li>
-                    <li><a href="./container/ETC/comming.html" class="waves-effect disabled" >เหล่าผู้บัญชาการระดับสูง</a>
-                    </li>
-                    <li><a href="./container/RTA/rank.html" class="waves-effect">ยศและเหล่าทัพ</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-users"></i>นักศึกษาวิชาทหาร<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="./container/TROTCS/backgroundtro.html" class="waves-effect">ประวัติ</a>
-                    </li>
-                    <li><a href="./container/TROTCS/backgroundtro.html" class="waves-effect">การเข้ารับการฝึก</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-bomb"></i>อาวุธและยุทโธปกรณ์<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="./container/guns/gun.html" class="waves-effect">ปืน</a>
-                    </li>
-                    <li><a href="./container/ETC/comming.html" class="waves-effect disabled" >กระสุน</a>
-                    </li>
-                    <li><a href="./container/ETC/comming.html" class="waves-effect disabled" >เครื่องมือสนับสนุน</a>
-                    </li>
-                    <li><a href="./container/ETC/comming.html" class="waves-effect disabled"  >ระเบิด</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-fighter-jet"></i>พาหนะ<i
-                    class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="./container/vehicles/vehicles.html" class="waves-effect">ทางบก</a>
-                    </li>
-                    <li><a href="./container/vehicles/vehicles.html" class="waves-effect" >ทางน้ำ</a>
-                    </li>
-                    <li><a href="./container/vehicles/vehicles.html" class="waves-effect">ทางอากาศ</a>
-                    </li>
-                    
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <!--/. Side navigation links -->
-        </ul>
-        <div class="sidenav-bg mask-strong"></div>
-      </div>
-      <!--/. Sidebar navigation -->
-      <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
-        <!-- SideNav slide-out button -->
-        <div class="float-left">
-          <a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"></i></a>
-        </div>
-        <!-- Breadcrumb-->
-        <div class="breadcrumb-dn mr-auto">
-          <a style="margin-left: 13px;" href="./index.html">รวบรวมข้อมูลน่ารู้เกียวกับกองทัพบก</a>
-        </div>
-        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+  <!-- Start your project here-->
+
+
+  <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mdb-color scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>ข้อมูลกองทัพบก</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="./container/TROTCS/clubs/contact.html"><i class="fas fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">ติดต่อชมรม</span></a>
+            <a class="nav-link" href="./page/rta/backgroundrta.html">กองทัพบก</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              ที่มาข้อมูลเว็บและผู้จัดทำ
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="https://web.facebook.com/Everytime.Aomsin/">ผู้จัดทำ</a>
-       
-              <a class="dropdown-item" href="#">ที่มารูปภาพและข้อมูล</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="./page/guns/index.html">ยุทโธปกรณ์</a>
           </li>
-      
+          <li class="nav-item">
+            <a class="nav-link" href="./page/vehicle/index.html">พาหนะ</a>
+          </li>
         </ul>
-      </nav>
-      <!-- /.Navbar -->
-    </header>
-    <!--/.Double navigation-->
-  
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./page/about/deverloper.html">
+              <i class="fas fa-user"></i> เกียวกับผู้สร้าง
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+</header>
     <!--Main Layout-->
-      <!--Carousel Wrapper-->
-      <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-2" data-slide-to="1"></li>
-            <li data-target="#carousel-example-2" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
 
-        <!--Slides-->
-        <div class="carousel-inner" id="top-section" role="listbox">
 
-            <!--First slide-->
-            <div class="carousel-item active" style="height:auto;">
-                <!--Mask-->
-                <div class="view" >
-                  
-                  <!--Video source-->
-                  <video  autoplay loop playsinline>
-                      <source src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/y2mate.com%20-%20Angel%20With%20A%20Shotgun%20-%20RTA%20(Royal%20Thai%20Army)_1080p.mp4?alt=media&token=16583188-a2bf-4368-ad33-585a694baecd" thye="video/mp4" />
-                  </video>
-                  <!-- Carousel content -->
-                  <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
-                    <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
-                      <li>
-                        <h1 class="font-weight-bold text-uppercase" >กองทัพบก</h1>
-                      </li>
-                      <li>
-                        <h5 class="font-weight-bold text-uppercase py-4">เหล่าทัพที่มีประวัติความเป็นมายาวนานที่สุดและมีขนาดใหญ่ที่สุดของกองทัพไทย</h5>
-                      </li>
-                      <li class="list-inline-item">
-                        <a target="_blank" href="./container/RTA/backgroundrta.html" class="btn btn-dark-green btn-lg btn-rounded mr-0">ประวัติ</a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a target="_blank" href="./container/RTA/rank.html" class="btn btn-light-green btn-lg btn-rounded ml-0">ยศและเหล่าทัพ</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!--/Mask-->
+    <!--Main Layout-->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+          <!--Mask-->
+          <div class="view">
+            <!--Video source-->
+            <video muted autoplay loop playsinline>
+              <source src="./video/Royal_Thai_Army.mp4" type="video/mp4" />
+            </video>
+            <!-- Carousel content -->
+            <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+              <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
+                <li>
+                  <h1 class="font-weight-bold text-uppercase">กองทัพบก</h1>
+                </li>
+                <li>
+                  <p class="font-weight-bold text-uppercase py-4">
+                    เหล่าทัพที่มีประวัติความเป็นมายาวนานที่สุดและมีขนาดใหญ่ที่สุดของกองทัพไทย</p>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="./page/rta/backgroundrta.html"
+                    class="btn btn-unique btn-lg btn-rounded mr-0">ประวัติกองทัพ</a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="./page/rta/rank.html"
+                    class="btn btn-cyan btn-lg btn-rounded ml-0">ยศและเหล่าทัพ</a>
+                </li>
+              </ul>
             </div>
-            <!--/First slide-->
-
-            <!--Second slide-->
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <!--Video source-->
-                    <video muted autoplay loop playsinline>
-                        <source src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/Blow%20Me%20Away_1080pFHR.mp4?alt=media&token=e8ec3bc0-497b-41c8-a077-3b17f55fb7d5" type="video/mp4" />
-                    </video>
-                    <!-- Carousel content -->
-                    <div class="full-bg-img flex-center mask rgba-purple-light white-text">
-                      <ul class="animated fadeInUp col-md-12 list-unstyled">
-                        <li>
-                          <h1 class="font-weight-bold text-uppercase">อาวุธ</h1>
-                        </li>
-                        <li>
-                          <h5 class="font-weight-bold text-uppercase py-4">เรียนรู้เหล่าอาวุธของกองทัพบก</h5>
-                        </li>
-                        <li>
-                          <a target="_blank" href="./container/guns/gun.html" class="btn btn-dark-green btn-rounded btn-lg">เริ่มกันเลย !</a>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-                <!--/Mask color-->
-            </div>
-            <!--/Second slide-->
-
-            <!--Third slide-->
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <!--Video source-->
-                    <video muted autoplay loop playsinline>
-                        <source src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%8D%E0%B8%B2%E0%B8%93%E0%B8%95%E0%B8%99.mp4?alt=media&token=1f312a31-8872-4b2f-b32d-79e5e62739d9" type="video/mp4"  />
-                    </video>
-                    <!-- Carousel content -->
-                    <div class="full-bg-img flex-center mask rgba-blue-light white-text">
-                      <ul class="animated fadeInUp col-md-12 list-unstyled">
-                        <li>
-                          <h1 class="font-weight-bold text-uppercase">นักศึกษาวิชาทหาร</h1></li>
-                        <li>
-                          <h5 class="font-weight-bold text-uppercase py-4">เรียนแล้วได้อะไร ทำไมเราต้องมี นศท.</h5>
-                        </li>
-                        <li>
-                          <a target="_blank" href="./container/TROTCS/backgroundtro.html" class="btn btn-lg btn-indigo btn-rounded">เริ่มกันเลย</a>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-                <!--/Mask color-->
-            </div>
-            <!--/Third slide-->
+          </div>
+          <!--/Mask-->
         </div>
-        <!--/.Slides-->
+        <!--/First slide-->
 
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
+        <!--Second slide-->
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <!--Video source-->
+            <video muted autoplay loop playsinline>
+              <source src="./video/Blow Me Away.mp4" type="video/mp4" />
+            </video>
+            <!-- Carousel content -->
+            <div class="full-bg-img flex-center mask rgba-purple-light white-text">
+              <ul class="animated fadeInUp col-md-12 list-unstyled">
+                <li>
+                  <h1 class="font-weight-bold text-uppercase">ยุทโธปกรณ์</h1>
+                </li>
+                <li>
+                  <p class="font-weight-bold text-uppercase py-4">เรียนรู้ยุทโธปกรณ์แล้วเครื่องมือต่างของกองทัพบกไทย</p>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="./page/guns/index.html"
+                    class="btn btn-unique btn-lg btn-rounded mr-0">อาวุธประจำกาย</a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="./page/vehicle/index.html"
+                    class="btn btn-cyan btn-lg btn-rounded ml-0">พาหนะ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--/Mask color-->
+        </div>
+        <!--/Second slide-->
+
+
+      </div>
+      <!--/.Slides-->
+
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
     </div>
     <!--/.Carousel Wrapper-->
-    
-    <div class="container-fluid  p-5 z-depth-1 unique-color-dark" >
+    <div class="container-fluid  p-5 z-depth-1 unique-color-dark">
 
 
       <!--Section: Content-->
       <section class="text-center white-text">
-    
+
         <!-- Section heading -->
         <h2 class="font-weight-bold mb-4 pb-2 text-uppercase" style="margin-top: 50px;">กองทัพบกไทย</h2>
         <!-- Section description -->
-        <p class=" mx-auto mb-5">  "กองทัพบกถือกำเนิดขึ้นพร้อมกับการก่อตั้งชาติไทย 
-          วิวัฒนาการของกองทัพบกเริ่มตั้งแต่ชนเผ่าไทยได้เข้ามาตั้งถิ่นฐานและรวมกลุ่มตั้งเป็นนครรัฐเล็ก ๆ ในดินแดนประเทศไทยปัจจุบันและบริเวณใกล้เคียง 
-          มีการจัดกำลังกองทัพเพื่อทำสงครามกับชนชาติที่เข้ามารุกราน และแผ่ขยายอาณาเขต จนสามารถสถาปนาอาณาจักรไทยขึ้นทางตอนเหนือของประเทศ<br>
-           และได้มีการพัฒนาอย่างต่อเนื่องมาโดยลำดับจนถึงกรุงสุโขทัย กรุงศรีอยุธยา กรุงธนบุรี และกรุงรัตนโกสินทร์"</p>
-         
+        <p class=" mx-auto mb-5"> "กองทัพบกถือกำเนิดขึ้นพร้อมกับการก่อตั้งชาติไทย
+          วิวัฒนาการของกองทัพบกเริ่มตั้งแต่ชนเผ่าไทยได้เข้ามาตั้งถิ่นฐานและรวมกลุ่มตั้งเป็นนครรัฐเล็ก ๆ
+          ในดินแดนประเทศไทยปัจจุบันและบริเวณใกล้เคียง
+          มีการจัดกำลังกองทัพเพื่อทำสงครามกับชนชาติที่เข้ามารุกราน และแผ่ขยายอาณาเขต
+          จนสามารถสถาปนาอาณาจักรไทยขึ้นทางตอนเหนือของประเทศ<br>
+          และได้มีการพัฒนาอย่างต่อเนื่องมาโดยลำดับจนถึงกรุงสุโขทัย กรุงศรีอยุธยา กรุงธนบุรี และกรุงรัตนโกสินทร์"</p>
+
         <!-- Grid row -->
         <div class="row">
-    
+
           <!-- Grid column -->
           <div class="col-md-4 mb-4">
-    
+
             <i class="fas fa-child fa-3x purple-text"></i>
             <h5 class="font-weight-bold my-4 text-uppercase">ประวัติกองทัพ</h5>
             <p class="mb-md-0 mb-5">ผู้ที่สนใจสามารถรู้และเข้าใจถึงประวัติ ยศ และเหล่าทัพกองทัพบกไทย
             </p>
-    
+
           </div>
           <!-- Grid column -->
-    
+
           <!-- Grid column -->
           <div class="col-md-4 mb-4">
-    
+
             <i class="fas fa-fire fa-3x purple-text"></i>
             <h5 class="font-weight-bold my-4 text-uppercase">ข้อมูลยุทโธปกรณ์</h5>
-            <p class="mb-md-0 mb-5">ข้อมูลทางด้านอาวุธและยุทโธปกรณ์ เช่น ปืน  หมวก อุปกรณ์สนาม
+            <p class="mb-md-0 mb-5">ข้อมูลทางด้านอาวุธและยุทโธปกรณ์ เช่น ปืน หมวก อุปกรณ์สนาม
             </p>
-    
+
           </div>
           <!-- Grid column -->
-    
+
           <!-- Grid column -->
           <div class="col-md-4 mb-4">
-    
+
             <i class="fas fa-users fa-3x purple-text"></i>
             <h5 class="font-weight-bold my-4 text-uppercase">นักศึกษาวิชาทหาร</h5>
             <p class="mb-0">การสอบเข้า การฝึก ฝึกแล้วได้อะไรกลับไปบ้าง
             </p>
-    
+
           </div>
           <!-- Grid column -->
-    
+
         </div>
         <!-- Grid row -->
-        <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/2M.jpg?alt=media&token=cdf97cfd-feee-4940-a568-5766bab3d337" class="img-fluid " alt="Responsive image">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/2M.jpg?alt=media&token=cdf97cfd-feee-4940-a568-5766bab3d337"
+          class="img-fluid " alt="Responsive image">
       </section>
       <!--Section: Content-->
-    
-    
+
+
     </div>
     <div class="col-md-12 mb-3 ">
 
-  
-  
+
+
     </div>
-    <div class="container"><hr ></div>
-    <div class="container-fluid" style="background-image: url('https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/camoback2.jpg?alt=media&token=8f96d152-4263-4523-9f82-d837928ef8a3'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-    <div class="container mt-5">
-      <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+    <div class="container">
+      <hr>
+    </div>
+    <div class="container-fluid"
+      style="background-image: url('https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/camoback2.jpg?alt=media&token=8f96d152-4263-4523-9f82-d837928ef8a3'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      
+      <div class="container mt-5">
 
-      <!--Section: Content-->
-      <section>
-    
 
-    <div>
-        <!--Grid row-->
-        <div class="row">
-    
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-12 mb-4">
-    
-            <!--News tile -->
-            <div class="news-tile view zoom z-depth-1 rounded mb-4">
-    
-              <a href="./container/RTA/backgroundrta.html" class="text-white">
-                <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4.jpg?alt=media&token=a11f493a-9b57-4014-a0d8-f7f18a273515"
-                  class="img-fluid rounded-bottom" alt="sample image">
-                <div class="mask rgba-stylish-strong">
-                  <div class="text-white text-center py-lg-5 py-0 my-0">
-                    <div>
-                      <h4 class="card-title font-weight-bold pt-2">
-                        <strong>ประวัติกองทัพบก</strong>
-                      </h4>
-    
-                      <p class="mx-5 clearfix d-none d-md-block"></p>
+        <!--Section: Content-->
+        <section>
+      
+          <style>
+            .news-tile .card-title {
+              position: absolute;
+              bottom: 15px;
+              left: 40px;
+            }
+      
+            .rgba-stylish-strong {
+              background-color: rgba(62, 69, 81, .5);
+            }
+          </style>
+      
+          <!--Grid row-->
+          <div class="row">
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+      
+              <!--News tile -->
+              <div class="news-tile view zoom z-depth-1 rounded mb-4" style="height:auto;">
+      
+                <a href="./page/rta/backgroundrta.html" class="text-white">
+                  <img src="./img/homepage/ประวัติ.jpg"
+                    class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask rgba-stylish-strong">
+                    <div class="text-white text-center py-lg-5 py-0 my-0">
+                      <div>
+                        <h4 class="card-title font-weight-bold pt-2">
+                          <strong>ประวัติกองทัพบก</strong>
+                        </h4>
+      
+                        <p class="mx-5 clearfix d-none d-md-block"></p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-    
+                </a>
+      
+              </div>
+              <!--News tile -->
+      
             </div>
-            <!--News tile -->
-    
-          </div>
-          <!--Grid column-->
-    
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-    
-            <!--News tile -->
-            <div class="news-tile view zoom z-depth-1 rounded mb-4">
-    
-              <a href="./container/RTA/rank.html" class="text-white">
-                <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%B2.jpg?alt=media&token=5e680114-130b-4066-a84d-fa0acfc14903"
-                  class="img-fluid rounded-bottom" alt="sample image">
-                <div class="mask rgba-stylish-strong">
-                  <div class="text-white text-center py-lg-5 py-0 my-0">
-                    <div>
-                      <h4 class="card-title font-weight-bold pt-2">
-                        <strong>ยศและเหล่าทัพ</strong>
-                      </h4>
-    
-                      <p class="mx-5 clearfix d-none d-md-block"></p>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+      
+              <!--News tile -->
+              <div class="news-tile view zoom z-depth-1 rounded mb-4" style="height:auto;">
+      
+                <a href="./page/rta/rankrta.html" class="text-white">
+                  <img src="./img/homepage/เหล่า.jpg"
+                    class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask rgba-stylish-strong">
+                    <div class="text-white text-center py-lg-5 py-0 my-0">
+                      <div>
+                        <h4 class="card-title font-weight-bold pt-2">
+                          <strong>ยศและเหล่าทัพ</strong>
+                        </h4>
+      
+                        <p class="mx-5 clearfix d-none d-md-block"></p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-    
+                </a>
+      
+              </div>
+              <!--News tile -->
+      
             </div>
-            <!--News tile -->
-    
-          </div>
-          <!--Grid column-->
-    
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-    
-            <!--News tile -->
-            <div class="news-tile view zoom z-depth-1 rounded mb-4">
-    
-              <a href="./container/vehicles/vehicles.html" class="text-white">
-                <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B8%9E%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B8%B0.jpg?alt=media&token=6ea27eba-a309-4b06-b0fa-369a0a0f6a1a"
-                  class="img-fluid rounded-bottom" alt="sample image">
-                <div class="mask rgba-stylish-strong">
-                  <div class="text-white text-center py-lg-5 py-0 my-0">
-                    <div>
-                      <h4 class="card-title font-weight-bold pt-2">
-                        <strong>ยุทโธปกรณ์และพาหนะ</strong>
-                      </h4>
-    
-                      <p class="mx-5 clearfix d-none d-md-block"></p>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+      
+              <!--News tile -->
+              <div class="news-tile view zoom z-depth-1 rounded mb-4" style="height:auto;">
+      
+                <a href="./page/vehicle/index.html" class="text-white">
+                  <img src="./img/homepage/พาหนะ.jpg"
+                    class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask rgba-stylish-strong">
+                    <div class="text-white text-center py-lg-5 py-0 my-0">
+                      <div>
+                        <h4 class="card-title font-weight-bold pt-2">
+                          <strong>ยุทโธปกรณ์และพาหนะ</strong>
+                        </h4>
+      
+                        <p class="mx-5 clearfix d-none d-md-block"></p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-    
+                </a>
+      
+              </div>
+              <!--News tile -->
+      
             </div>
-            <!--News tile -->
-    
+            <!--Grid column-->
+      
           </div>
-          <!--Grid column-->
-    
-        </div>
-        </div>
-        <!--Grid row-->
-    
-      </section>
-      <!--Section: Content-->
-    
-    
+          <!--Grid row-->
+      
+        </section>
+        <!--Section: Content-->
+      
+
+         <!--Section: Content-->
+         <section>
+      
+          <style>
+            .news-tile .card-title {
+              position: absolute;
+              bottom: 15px;
+              left: 40px;
+            }
+      
+            .rgba-stylish-strong {
+              background-color: rgba(62, 69, 81, .5);
+            }
+          </style>
+      
+          <!--Grid row-->
+          <div class="row">
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+      
+              <!--News tile -->
+              <div class="news-tile view zoom z-depth-1 rounded mb-4" style="height:auto;">
+      
+                <a href="./page/trotcs/backgrondtrotcs.html" class="text-white">
+                  <img src="./img/homepage/ประวัติ.jpg"
+                    class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask rgba-stylish-strong">
+                    <div class="text-white text-center py-lg-5 py-0 my-0">
+                      <div>
+                        <h4 class="card-title font-weight-bold pt-2">
+                          <strong>ประวัติ นศท.</strong>
+                        </h4>
+      
+                        <p class="mx-5 clearfix d-none d-md-block"></p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+      
+              </div>
+              <!--News tile -->
+      
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4" >
+      
+              <!--News tile -->
+              <div class="news-tile view zoom z-depth-1 rounded mb-4" style="height:auto;">
+      
+                <a href="./page/trotcs/training.html" class="text-white">
+                  <img src="./img/homepage/การฝึก.jpg"
+                    class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask rgba-stylish-strong">
+                    <div class="text-white text-center py-lg-5 py-0 my-0">
+                      <div>
+                        <h4 class="card-title font-weight-bold pt-2">
+                          <strong>การฝึก นศท.</strong>
+                        </h4>
+      
+                        <p class="mx-5 clearfix d-none d-md-block"></p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+      
+              </div>
+              <!--News tile -->
+      
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+      
+              <!--News tile -->
+              <div class="news-tile view zoom z-depth-1 rounded mb-4" style="height:auto;">
+      
+                <a href="./page/about/club.html" class="text-white">
+                  <img src="./img/homepage/ชมรม.jpg"
+                    class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask rgba-stylish-strong">
+                    <div class="text-white text-center py-lg-5 py-0 my-0">
+                      <div>
+                        <h4 class="card-title font-weight-bold pt-2">
+                          <strong>ชมรมนักศึกษาวิชาทหาร มทร.ศรีวิชัย</strong>
+                        </h4>
+      
+                        <p class="mx-5 clearfix d-none d-md-block"></p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+      
+              </div>
+              <!--News tile -->
+      
+            </div>
+            <!--Grid column-->
+      
+          </div>
+          <!--Grid row-->
+      
+        </section>
+        <!--Section: Content-->
+      
+      </div>
+      
     </div>
-<div class="container mt-5">
+    <!--Main Layout-->
 
-
-  <!--Section: Content-->
-  <section>
-
-
-    <!--Grid row-->
-    <div class="row">
-
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4">
-
-        <!--News tile -->
-        <div class="news-tile view zoom z-depth-1 rounded mb-4">
-
-          <a href="./container/TROTCS/backgroundtro.html" class="text-white">
-            <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B8%A8%E0%B8%97.jpg?alt=media&token=30b554bf-33e2-4e74-938e-254b5c8f02a5"
-              class="img-fluid rounded-bottom" alt="sample image">
-            <div class="mask rgba-stylish-strong">
-              <div class="text-white text-center py-lg-5 py-0 my-0">
-                <div>
-                  <h4 class="card-title font-weight-bold pt-2">
-                    <strong>ประวัติ นศท.</strong>
-                  </h4>
-
-                  <p class="mx-5 clearfix d-none d-md-block"></p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-        </div>
-        <!--News tile -->
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-
-        <!--News tile -->
-        <div class="news-tile view zoom z-depth-1 rounded mb-4">
-
-          <a href="./container/TROTCS/backgroundtro.html#training" class="text-white">
-            <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9D%E0%B8%B6%E0%B8%81.jpg?alt=media&token=3039ffc2-0c63-4c7d-b6eb-3c7fc1d59374"
-              class="img-fluid rounded-bottom" alt="sample image">
-            <div class="mask rgba-stylish-strong">
-              <div class="text-white text-center py-lg-5 py-0 my-0">
-                <div>
-                  <h4 class="card-title font-weight-bold pt-2">
-                    <strong>การฝึก นศท.</strong>
-                  </h4>
-
-                  <p class="mx-5 clearfix d-none d-md-block"></p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-        </div>
-        <!--News tile -->
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-
-        <!--News tile -->
-        <div class="news-tile view zoom z-depth-1 rounded mb-4">
-
-          <a href="./container/TROTCS/clubs/contact.html" class="text-white">
-            <img src="https://firebasestorage.googleapis.com/v0/b/trotch-e836d.appspot.com/o/%E0%B8%8A%E0%B8%A1%E0%B8%A3%E0%B8%A1.jpg?alt=media&token=e5433e83-e6cd-4c91-bb07-5b11c29a50ce"
-              class="img-fluid rounded-bottom" alt="sample image">
-            <div class="mask rgba-stylish-strong">
-              <div class="text-white text-center py-lg-5 py-0 my-0">
-                <div>
-                  <h4 class="card-title font-weight-bold pt-2">
-                    <strong>ชมรม นศท. มทร.ศรีวิชัย</strong>
-                  </h4>
-
-                  <p class="mx-5 clearfix d-none d-md-block"></p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-        </div>
-        <!--News tile -->
-
-      </div>
-    
-    </div>
-    <!--Grid row-->
-
-  </section>
-  <!--Section: Content-->
-
-
-</div>
-</div>
-  <!-- Footer -->
-<footer class="page-footer font-small unique-color-dark">
+ <!-- Footer -->
+ <footer class="page-footer font-small unique-color-dark">
   <div style="background-color: #00695c;">
     <div class="container">
 
@@ -566,10 +493,10 @@
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
           <!-- Facebook -->
-          <a class="fb-ic" href="https://www.facebook.com/groups/230294860315161">
+          <a class="fb-ic" href="#">
             <i class="fab fa-facebook-f white-text mr-4"> </i>
           </a>
-         
+
 
         </div>
         <!-- Grid column -->
@@ -588,7 +515,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="./container/RTA/backgroundrta.html">กองทัพบก</a>
+          <a href="./page/rta/backgroundrta.html">กองทัพบก</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -596,7 +523,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="./container/TROTCS/backgroundtro.html">นักศึกษาวิชาทหาร</a>
+          <a href="./page/trotcs/training.html">นักศึกษาวิชาทหาร</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -604,7 +531,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="./container/TROTCS/clubs/contact.html">ชมรม นศท มทร</a>
+          <a href="./page/about/club.html">ชมรม นศท มทร</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -612,91 +539,75 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">ข้อมูลเว็บและผู้จัดทำ</a>
+          <a href="./page/about/deverloper.html">ข้อมูลเว็บและผู้จัดทำ</a>
         </h6>
       </div>
       <!-- Grid column -->
 
-     
+
 
     </div>
     <!-- Grid row-->
-     <!-- Content -->
+    <!-- Content -->
     <div style="text-align: center;">
-     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 300px; ">
+      <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 300px; ">
     </div>
     <!-- Grid row-->
     <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
       <!-- Grid column -->
       <div class="col-md-8 col-12 mt-5">
-        <p style="line-height: 1.7rem">"กองทัพบกถือกำเนิดขึ้นพร้อมกับการก่อตั้งชาติไทย 
-          วิวัฒนาการของกองทัพบกเริ่มตั้งแต่ชนเผ่าไทยได้เข้ามาตั้งถิ่นฐานและรวมกลุ่มตั้งเป็นนครรัฐเล็ก ๆ ในดินแดนประเทศไทยปัจจุบันและบริเวณใกล้เคียง 
-          มีการจัดกำลังกองทัพเพื่อทำสงครามกับชนชาติที่เข้ามารุกราน และแผ่ขยายอาณาเขต จนสามารถสถาปนาอาณาจักรไทยขึ้นทางตอนเหนือของประเทศ<br>
-           และได้มีการพัฒนาอย่างต่อเนื่องมาโดยลำดับจนถึงกรุงสุโขทัย กรุงศรีอยุธยา กรุงธนบุรี และกรุงรัตนโกสินทร์"</p>
+        <p style="line-height: 1.7rem">"กองทัพบกถือกำเนิดขึ้นพร้อมกับการก่อตั้งชาติไทย
+          วิวัฒนาการของกองทัพบกเริ่มตั้งแต่ชนเผ่าไทยได้เข้ามาตั้งถิ่นฐานและรวมกลุ่มตั้งเป็นนครรัฐเล็ก ๆ
+          ในดินแดนประเทศไทยปัจจุบันและบริเวณใกล้เคียง
+          มีการจัดกำลังกองทัพเพื่อทำสงครามกับชนชาติที่เข้ามารุกราน และแผ่ขยายอาณาเขต
+          จนสามารถสถาปนาอาณาจักรไทยขึ้นทางตอนเหนือของประเทศ<br>
+          และได้มีการพัฒนาอย่างต่อเนื่องมาโดยลำดับจนถึงกรุงสุโขทัย กรุงศรีอยุธยา กรุงธนบุรี และกรุงรัตนโกสินทร์"</p>
       </div>
       <!-- Grid column -->
 
     </div>
     <!-- Grid row-->
     <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
- <!-- Social buttons -->
- <ul class="list-unstyled list-inline text-center">
-  <li class="list-inline-item">
-    <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/groups/230294860315161">
-      <i class="fab fa-facebook-f"> </i>
-    </a>
-  </li>
-  
-</ul>
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1" href="#">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
 
-<hr>
-<!-- Social buttons -->
+    </ul>
 
- 
+    <hr>
+    <!-- Social buttons -->
+
+
 
   </div>
   <!-- Footer Links -->
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">จัดทำโดย :
-    <a href="https://web.facebook.com/Everytime.Aomsin/"> EverytimeAomsin 2018+2</a> 
+    <a href="https://web.facebook.com/Everytime.Aomsin/"> EverytimeAomsin 2018+2</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-    <!--Main Layout-->
-  
-  </body>
-  <!-- End your project here-->
+    <!-- End your project here-->
 
-  <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="./js/navbar.js"></script>
-  <script>
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    var firebaseConfig = {
-      apiKey: "AIzaSyBYSG0rRCWI1n_WW0cdsACIthrITbAe8ag",
-      authDomain: "trotch-e836d.firebaseapp.com",
-      databaseURL: "https://trotch-e836d.firebaseio.com",
-      projectId: "trotch-e836d",
-      storageBucket: "trotch-e836d.appspot.com",
-      messagingSenderId: "717094916666",
-      appId: "1:717094916666:web:45d9257c03bee56e711b03",
-      measurementId: "G-J7CJX42Y0K"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript" src="./js/navbar.js"></script>
+
 </body>
+
 </html>
